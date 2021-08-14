@@ -140,7 +140,7 @@ footer a:hover {
     }
     .contact-form textarea {
         margin-left: 1.1em;
-        height: 40em;
+        height: 20em;
     }
     .contact-form [type="submit"] {
         font-size: 2.5rem;
