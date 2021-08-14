@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #98CCD3;
+}
+
+header {
+    width: 100%;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #98CCD3;
+    padding: 1em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-links ul {
+    flex-direction: column;
+    text-align: left;
+}
+
+.nav-links {
+    width: 200px;
+    height: 40vh;
+    background: #006D8F;
+    border-radius: 0px 0 0 20px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    transition: 1s;
+    z-index: 2;
+}
+
+.nav-links ul {
+    padding: 1em 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    padding: 0.5em 0;
+    text-align: left;
+}
+
+.nav-links li a {
+    text-transform: uppercase;
+    margin: 0 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa,
+.fa-times {
+    padding: .5em;
+    font-size: 1.5rem;
+}
+
+.fa-bars {
+    padding-top: .5em;
+    font-size: 1.5rem;
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    .logo a {
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        position: relative;
+        width: auto;
+        height: auto;
+        background: transparent;
+        border-radius: 0;
+        border-left: 0px;
+        border-bottom: 0px;
+        top: 0;
+        right: 0;
+        transition: 0;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links ul {
+        flex-direction: row;
+    }
+    .nav-links li a {
+        font-size: 1.5rem;
+    }
+    .fa {
+        display: none;
+    }
+}
+
+@media (min-width: 1600px) {
+    .logo a {
+        font-size: 2rem;
+    }
+    .nav-links {
+        position: relative;
+        width: auto;
+        height: auto;
+        background: transparent;
+        border-radius: 0;
+        border-left: 0px;
+        border-bottom: 0px;
+        top: 0;
+        right: 0;
+        transition: 0;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links ul {
+        flex-direction: row;
+    }
+    .nav-links li a {
+        font-size: 2rem;
+    }
+    .fa {
+        display: none;
+    }
+}
+
+.presentation {
+    margin-top: 0em;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #006D8F;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.intro {
+    color: #fff;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.intro h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 3rem;
+}
+
+.intro h2 {
+    font-family: "Pt Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.self-image img {
+    width: 50vw;
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.self-image {
+    margin: 0 auto;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+@media (min-width:1025px) and (max-width: 1600px) {
+    .presentation {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro {
+        margin: 1em 2.5em 1em auto;
+    }
+    .intro h1 {
+        font-size: 5rem;
+    }
+    .intro h2 {
+        font-size: 3rem;
+    }
+    .self-image {
+        margin: 0 auto 0 2.5em;
+    }
+}
+
+@media (min-width: 1600px) {
+    .presentation {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro {
+        margin: 1em 5em 1em auto;
+    }
+    .intro h1 {
+        font-size: 9rem;
+    }
+    .intro h2 {
+        font-size: 5rem;
+    }
+    .self-image {
+        margin: 0 auto 0 5em;
+    }
+    .self-image img {
+        max-width: 600px;
+    }
+}
+
+.about-me {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.about-me h3 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+}
+
+.about-me p {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2;
+    word-wrap: break-word;
+    word-spacing: .2525em;
+    width: 80%;
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    .about-me h3 {
+        font-size: 3rem;
+    }
+    .about-me p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .about-me h3 {
+        font-size: 4rem;
+    }
+    .about-me p {
+        font-size: 3rem;
+    }
+}
+
+.skills {
+    background-color: #006D8F;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+.text-box {
+    margin-top: 10em;
+}
+
+.skills h3 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+}
+
+.skills p {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2;
+    word-wrap: break-word;
+    word-spacing: .2525em;
+    width: 80%;
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    .skills h3 {
+        font-size: 3rem;
+    }
+    .skills p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .skills h3 {
+        font-size: 4rem;
+    }
+    .skills p {
+        font-size: 3rem;
+    }
+}
+
+.icons {
+    margin: 0 auto;
+    margin-top: 5em;
+    padding-bottom: 5em;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    max-width: 75px;
+    max-height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .3em;
+    font-weight: bold;
+}
+
+.c {
+    background-color: #2750AC;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.c-plus-plus {
+    background-image: url("./images/image 16.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.java {
+    background-image: url("./images/image 3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.python {
+    background-image: url("./images/image 17.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.html {
+    background-image: url("./images/image 7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.css {
+    background-image: url("./images/image 8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.javascript {
+    background-color: #FED142;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: .5em;
+}
+
+.sql {
+    color: #000;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.react {
+    background-image: url("./images/image 9.png ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+@media (min-width: 481px) {
+    .c {
+        font-size: 1.5rem;
+    }
+    .c-plus-plus {
+        font-size: 1.5rem;
+    }
+    .java {
+        font-size: 1.5rem;
+    }
+    .python {
+        font-size: 1.5rem;
+    }
+    .html {
+        font-size: 1.5rem
+    }
+    .css {
+        font-size: 1.5rem;
+    }
+    .javascript {
+        font-size: 1.5rem;
+    }
+    .sql {
+        font-size: 1.5rem;
+    }
+    .react {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    .icon {
+        width: 20vw;
+        height: 20vw;
+        max-width: 175px;
+        max-height: 175px;
+    }
+    .c {
+        font-size: 4rem;
+    }
+    .c-plus-plus {
+        font-size: 4rem;
+    }
+    .java {
+        font-size: 4rem;
+    }
+    .python {
+        font-size: 4rem;
+    }
+    .html {
+        font-size: 4rem
+    }
+    .css {
+        font-size: 4rem;
+    }
+    .javascript {
+        font-size: 4rem;
+    }
+    .sql {
+        font-size: 4rem;
+    }
+    .react {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .icon {
+        width: 25vw;
+        height: 25vw;
+        max-width: 225px;
+        max-height: 225px;
+    }
+    .c {
+        font-size: 6rem;
+    }
+    .c-plus-plus {
+        font-size: 6rem;
+    }
+    .java {
+        font-size: 6rem;
+    }
+    .python {
+        font-size: 6rem;
+    }
+    .html {
+        font-size: 6rem
+    }
+    .css {
+        font-size: 6rem;
+    }
+    .javascript {
+        font-size: 6rem;
+    }
+    .sql {
+        font-size: 6rem;
+    }
+    .react {
+        font-size: 6rem;
+    }
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 2em;
+}
+
+footer a:hover {
+    color: #006D8F;
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    footer {
+        font-size: 2rem;
+    }
+}

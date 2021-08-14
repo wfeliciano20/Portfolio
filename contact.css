@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #98CCD3;
+}
+
+header {
+    width: 100%;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #98CCD3;
+    padding: 1em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+main {
+    background-color: #006D8F;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.contact-form {
+    margin: 0 auto;
+    color: #fff;
+    width: 80%;
+}
+
+.contact-form .header {
+    text-align: center;
+    padding-top: .5em;
+    margin-bottom: 1em;
+}
+
+.contact-form label {
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.contact-form [type="text"] {
+    display: inline-block;
+    margin-top: .5em;
+    margin-left: 2.5em;
+    margin-bottom: .5em;
+    width: 80%;
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin-top: .5em;
+    margin-left: 2.5em;
+}
+
+.contact-form [type="submit"] {
+    display: block;
+    text-align: center;
+    margin: .5em auto;
+    background-color: #98CCD3;
+    color: #fff;
+    padding: .5em 1.5em;
+    border-radius: .5em;
+}
+
+.contact-form [type="submit"]:hover {
+    background-color: #fff;
+    color: #98CCD3;
+}
+
+footer {
+    background-color: #98CCD3;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding: 2.5em;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #006D8F;
+}
+
+@media (min-width:1024px) and (max-width: 1600px) {
+    .contact-form h3 {
+        font-size: 3rem;
+    }
+    .contact-form label {
+        font-size: 2rem;
+        margin-left: 1.97rem;
+    }
+    .contact-form [type="text"] {
+        height: 3em;
+        margin-left: 2.4em;
+    }
+    .contact-form textarea {
+        margin-left: 2.4em;
+        height: 20em;
+    }
+    .contact-form [type="submit"] {
+        font-size: 2rem;
+    }
+    footer {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1601px) {
+    .contact-form h3 {
+        font-size: 5rem;
+    }
+    .contact-form label {
+        font-size: 2.5rem;
+        margin-left: 1.97rem;
+    }
+    .contact-form [type="text"] {
+        height: 6em;
+        font-size: 1.5rem;
+        margin-left: 1.1em;
+    }
+    .contact-form textarea {
+        font-size: 2rem;
+        margin-left: 1.1em;
+        height: 40em;
+    }
+    .contact-form [type="submit"] {
+        font-size: 2.5rem;
+    }
+    footer {
+        font-size: 4rem;
+    }
+}
