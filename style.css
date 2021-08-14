@@ -103,7 +103,7 @@ header {
         flex-direction: row;
     }
     .nav-links li a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .fa {
         display: none;
@@ -112,7 +112,7 @@ header {
 
 @media (min-width: 1600px) {
     .logo a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .nav-links {
         position: relative;
