@@ -542,3 +542,9 @@ footer a:hover {
         font-size: 2rem;
     }
 }
+
+@media(min-width: 1601px){
+    footer{
+        font-size: 2rem;
+    }
+}
