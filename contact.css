@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,7 +44,8 @@ main {
 
 .contact-form .header {
     text-align: center;
-    padding-top: .5em;
+    padding-top: 10em;
+    margin-top: 10em;
     margin-bottom: 1em;
 }
 
@@ -63,6 +65,14 @@ main {
     width: 80%;
 }
 
+.contact-form [type="email"] {
+    display: inline-block;
+    margin-top: .5em;
+    margin-left: 2.5em;
+    margin-bottom: .5em;
+    width: 80%;
+}
+
 .contact-form textarea {
     width: 80%;
     margin-top: .5em;
@@ -72,11 +82,12 @@ main {
 .contact-form [type="submit"] {
     display: block;
     text-align: center;
-    margin: .5em auto;
+    margin: 1em auto 4em auto;
     background-color: #98CCD3;
     color: #fff;
     padding: .5em 1.5em;
     border-radius: .5em;
+    margin-bottom: 17em;
 }
 
 .contact-form [type="submit"]:hover {
@@ -89,7 +100,7 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 1rem;
-    padding: 2.5em;
+    /* padding-top: 2.5em; */
 }
 
 footer a {
@@ -114,9 +125,14 @@ footer a:hover {
         margin-left: 13.2em;
         width: 50%;
     }
+    .contact-form [type="email"] {
+        font-size: 1.5rem;
+        margin-left: 13.2em;
+        width: 50%;
+    }
     .contact-form textarea {
         margin-left: 23.75em;
-        height: 20em;
+        height: 5em;
         width: 50%;
     }
     .contact-form [type="submit"] {
@@ -140,10 +156,16 @@ footer a:hover {
         margin-left: 13.2em;
         width: 50%;
     }
-    .contact-form textarea {
-        margin-left: 23.75em;
-        height: 20em;
+    .contact-form [type="email"] {
+        font-size: 1.5rem;
+        margin-left: 13.2em;
         width: 50%;
+    }
+    .contact-form textarea {
+        margin-left: 13.1em;
+        height: 5em;
+        width: 50%;
+        font-size: 1.5rem;
     }
     .contact-form [type="submit"] {
         font-size: 1.5rem;
