@@ -23,6 +23,7 @@ header {
 
 .logo a {
     text-decoration: none;
+    cursor: pointer;
     color: #fff;
     font-size: 1rem;
 }
@@ -100,7 +101,8 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 1rem;
-    /* padding-top: 2.5em; */
+    padding-top: 2.5em;
+    padding-bottom: .5em;
 }
 
 footer a {
