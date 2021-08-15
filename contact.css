@@ -31,7 +31,6 @@ header {
 
 main {
     background-color: #006D8F;
-    height: 100vh - 8rem;
 }
 
 .main-section {
@@ -39,6 +38,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh - 8rem;
 }
 
 .contact-form {
