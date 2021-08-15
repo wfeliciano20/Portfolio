@@ -103,49 +103,52 @@ footer a:hover {
 
 @media (min-width:1024px) and (max-width: 1600px) {
     .contact-form h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .contact-form label {
-        font-size: 2rem;
-        margin-left: 1.97rem;
+        font-size: 1.5rem;
+        margin-left: 20rem;
     }
     .contact-form [type="text"] {
-        height: 3em;
-        margin-left: 2.4em;
+        font-size: 1.5rem;
+        margin-left: 13.2em;
+        width: 50%;
     }
     .contact-form textarea {
-        margin-left: 2.4em;
+        margin-left: 23.75em;
         height: 20em;
+        width: 50%;
     }
     .contact-form [type="submit"] {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     footer {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (min-width: 1601px) {
     .contact-form h3 {
-        font-size: 3rem;
-    }
-    .contact-form label {
-        font-size: 2rem;
-        margin-left: 1.97rem;
-    }
-    .contact-form [type="text"] {
-        height: 6em;
-        font-size: 1.5rem;
-        margin-left: 1.4em;
-    }
-    .contact-form textarea {
-        margin-left: 1.1em;
-        height: 20em;
-    }
-    .contact-form [type="submit"] {
         font-size: 2.5rem;
     }
+    .contact-form label {
+        font-size: 1.5rem;
+        margin-left: 20rem;
+    }
+    .contact-form [type="text"] {
+        font-size: 1.5rem;
+        margin-left: 13.2em;
+        width: 50%;
+    }
+    .contact-form textarea {
+        margin-left: 23.75em;
+        height: 20em;
+        width: 50%;
+    }
+    .contact-form [type="submit"] {
+        font-size: 1.5rem;
+    }
     footer {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
