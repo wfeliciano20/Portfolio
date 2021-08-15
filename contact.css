@@ -144,9 +144,6 @@ footer a:hover {
     .contact-form [type="submit"] {
         font-size: 1.5rem;
     }
-    footer {
-        font-size: 1.5rem;
-    }
 }
 
 @media (min-width: 1601px) {
@@ -174,9 +171,6 @@ footer a:hover {
         font-size: 1.5rem;
     }
     .contact-form [type="submit"] {
-        font-size: 1.5rem;
-    }
-    footer {
         font-size: 1.5rem;
     }
 }
