@@ -103,7 +103,7 @@ header {
         flex-direction: row;
     }
     .nav-links li a {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .fa {
         display: none;
@@ -133,7 +133,7 @@ header {
         flex-direction: row;
     }
     .nav-links li a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .fa {
         display: none;
