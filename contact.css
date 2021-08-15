@@ -127,16 +127,16 @@ footer a:hover {
 
 @media (min-width: 1601px) {
     .contact-form h3 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .contact-form label {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-left: 1.97rem;
     }
     .contact-form [type="text"] {
         height: 6em;
         font-size: 1.5rem;
-        margin-left: 1.1em;
+        margin-left: 1.4em;
     }
     .contact-form textarea {
         margin-left: 1.1em;
