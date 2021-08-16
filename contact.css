@@ -87,8 +87,12 @@ header .logo {
     margin-bottom: 1em;
     border-radius: .5em;
     height: 2em;
-    box-shadow: 0 0 2px white;
     border: transparent;
+    outline: none;
+}
+
+.input:focus {
+    box-shadow: 0 0 .4em #006D8F;
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
@@ -120,8 +124,13 @@ header .logo {
     margin-bottom: 1em;
     border-radius: .5em;
     height: 5em;
-    box-shadow: 0 0 2px white;
     border: transparent;
+    outline: none;
+    resize: none;
+}
+
+.message:focus {
+    box-shadow: 0 0 .4em #006D8F;
 }
 
 .submit {
@@ -129,11 +138,14 @@ header .logo {
     border-radius: .5em;
     background-color: #006D8F;
     color: #fff;
+    border-color: #006D8F;
+    box-shadow: 0 0 .3em black;
 }
 
 .submit:hover {
     color: #006D8F;
     background-color: #fff;
+    border: 0;
 }
 
 footer {
