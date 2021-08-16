@@ -243,9 +243,9 @@ header {
     margin: 0 auto;
     font-size: 1.3rem;
     text-align: left;
-    line-height: 2;
+    line-height: 1.5;
     word-wrap: break-word;
-    word-spacing: .2525em;
+    word-spacing: .1em;
     width: 80%;
 }
 
@@ -293,9 +293,9 @@ header {
     margin: 0 auto;
     font-size: 1.3rem;
     text-align: left;
-    line-height: 2;
+    line-height: 1.5;
     word-wrap: break-word;
-    word-spacing: .2525em;
+    word-spacing: .1em;
     width: 80%;
 }
 
@@ -450,12 +450,12 @@ header {
 }
 
 @media (min-width:1024px) and (max-width: 1600px) {
-    .icon {
+    /* .icon {
         width: 20vw;
         height: 20vw;
         max-width: 175px;
         max-height: 175px;
-    }
+    } */
     .c {
         font-size: 4rem;
     }
@@ -487,37 +487,37 @@ header {
 
 @media (min-width: 1600px) {
     .icon {
-        width: 25vw;
-        height: 25vw;
-        max-width: 225px;
-        max-height: 225px;
+        width: 18vw;
+        height: 18vw;
+        max-width: 175px;
+        max-height: 175px;
     }
     .c {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .c-plus-plus {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .java {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .python {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .html {
-        font-size: 6rem
+        font-size: 5rem
     }
     .css {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .javascript {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .sql {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .react {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 }
 
@@ -533,6 +533,10 @@ footer a {
     margin-bottom: 2em;
 }
 
+footer p {
+    margin-bottom: .5em;
+}
+
 footer a:hover {
     color: #006D8F;
 }
@@ -543,8 +547,8 @@ footer a:hover {
     }
 }
 
-@media(min-width: 1601px){
-    footer{
+@media(min-width: 1601px) {
+    footer {
         font-size: 2rem;
     }
 }
